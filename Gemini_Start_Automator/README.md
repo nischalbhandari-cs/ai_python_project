@@ -49,28 +49,28 @@ The `.env`, `tasks.txt`, and `main.py` should be in the same folder.
 
 ## 🧠 Code Breakdown: Keywords used in the program
 
-dotenv (load_dotenv)  
+**dotenv (load_dotenv)**  
 A Python library used to load environment variables from a `.env` file.  
 It keeps sensitive data like API keys secure.
 
-os.getenv  
+**os.getenv**  
 Used to retrieve values (like API keys) from environment variables.
 
-genai.configure  
+**genai.configure** 
 Configures the API by providing your API key so the system can authenticate your requests.
 
-GenerativeModel  
+**GenerativeModel**  
 Represents the AI model being used.  
 In this project: gemini-2.0-flash (fast and efficient model)
 
-generate_content  
+**generate_content**  
 The function that sends your input to the AI and receives a response.
 
-try...except (Error Handling)  
+**try...except (Error Handling)**  
 Prevents the program from crashing.  
 If something goes wrong (file missing or API error), it shows a message instead.
 
-if __name__ == "__main__":  
+**if __name__ == "__main__":** 
 The entry point of the program.  
 Ensures the script runs only when executed directly.
 
